@@ -1,0 +1,11 @@
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\bin\Debug\netcoreapp2.0\ASPLesson1HW.deps.json
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\bin\Debug\netcoreapp2.0\ASPLesson1HW.runtimeconfig.json
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\bin\Debug\netcoreapp2.0\ASPLesson1HW.runtimeconfig.dev.json
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\bin\Debug\netcoreapp2.0\ASPLesson1HW.dll
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\obj\Debug\netcoreapp2.0\ASPLesson1HW.csprojResolveAssemblyReference.cache
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\obj\Debug\netcoreapp2.0\ASPLesson1HW.csproj.CoreCompileInputs.cache
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\obj\Debug\netcoreapp2.0\ASPLesson1HW.AssemblyInfoInputs.cache
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\obj\Debug\netcoreapp2.0\ASPLesson1HW.AssemblyInfo.cs
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\bin\Debug\netcoreapp2.0\ASPLesson1HW.pdb
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\obj\Debug\netcoreapp2.0\ASPLesson1HW.dll
+C:\Users\Proga\Documents\Visual Studio 2017\Projects\ASPLesson1HW\ASPLesson1HW\obj\Debug\netcoreapp2.0\ASPLesson1HW.pdb

@@ -1,0 +1,48 @@
+﻿@model ASPLesson1HW.Models.ListEmployees;
+@{
+    ViewBag.Title = "Список работников";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="@Url.Content("~/Style/Style.css")" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Список работников</title>
+</head>
+<body>
+    @using (Html.BeginForm("Index", "Home"))
+    { 
+        <div>
+            <h2>Список работников</h2>
+        </div>
+        <div class="employees-list">
+            <table class="main-table">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(x => x.liEmp.First().FirstName)</th>
+                        <th>@Html.DisplayNameFor(x => x.liEmp.First().SecondName)</th>
+                        <th>@Html.DisplayNameFor(x => x.liEmp.First().LastName)</th>
+                        <th>@Html.DisplayNameFor(x => x.liEmp.First().Age)</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.liEmp.Count; i++)
+                    { 
+                    <tr>
+                        <td>@Html.DisplayFor(x => x.liEmp[i].FirstName)</td>
+                        <td>@Html.DisplayFor(x => x.liEmp[i].SecondName)</td>
+                        <td>@Html.DisplayFor(x => x.liEmp[i].LastName)</td>
+                        <td>@Html.DisplayFor(x => x.liEmp[i].Age)</td>
+                        <td>@Html.ActionLink("Подробнее", "DetailViewEmployee", "Home", new { IDEmployee = Model.liEmp[i].IDEmployee})</td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</body>
+</html>
